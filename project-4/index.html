@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    
+    <header>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class = "logo">Generate Quote</label>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact-Us</a></li>
+            <li><a href="#">Services</a></li>
+            
+        </ul>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="message">
+            <p>
+                <h3 style="text-align: center; font-weight: bold;">Pass the Message</h3>
+                <p style="border-bottom: 2px solid gray;"></p>
+            </p>
+            <p>
+                <label for="message-input">Enter the message</label><br>
+                <button onclick="getMessage()" style="border-radius: 5px 0 0 5px ;"><i class="far fa-envelope"></i></button><input id="message-input" type="text">
+            </p>
+            <p>
+                <button onclick="getMessage()">Submit</button>
+            </p>
+
+            <p id="message-output" style="text-align: center; text-transform: uppercase;"></p>
+        </div>
+      </div>
+      </main>
+    
+
+      <footer class="footer-class">
+
+
+        <div class="copyright">
+            <h3>@Ankit Sharma</h3>
+        <p>Full-Stack Developer & Security Researcher</p>
+    
+        </div>
+    
+    <div class="footer">
+      <a class="icon icon--instagram" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a class="icon icon--linkedin" href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a class="icon icon--github" href="https://github.com/ankitsharmanoo1" target="_blank"><i class="fab fa-github"></i></a>
+      <a class="icon icon--facebook" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
